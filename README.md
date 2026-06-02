@@ -2,7 +2,7 @@
 
 An intelligent, multi-layered security tool designed to analyze and safeguard Android devices against digital threats by scanning links, local files, and QR codes.
 
-🚀 Overview
+🚀 Overview:
 Traditional scanners often focus on just one entry point. This project acts as a unified security checkpoint, analyzing inputs across multiple vectors—detecting malicious URLs, scanning file structures for suspicious payloads, and decoding QR codes to intercept threat triggers before they execute.
 
 🛠️ Core Features
