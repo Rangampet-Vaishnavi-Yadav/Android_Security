@@ -8,8 +8,11 @@ Traditional scanners often focus on just one entry point. This project acts as a
 🛠️ Core Features
 
 🔗 Link Analysis: Scans URLs against known suspicious patterns, keywords, and malicious domains.
+
 📁 File Inspection: Analyzes local Android files and directories to flag potential malware or anomalous extensions.
+
 📷 QR Code Decoder: Extracts and safely previews embedded data within QR codes to prevent accidental drive-by downloads.
+
 ⚠️ Real-Time Warnings: Instantly alerts the user with high-visibility threat levels upon detection.
 
 💻 Tech Stack
