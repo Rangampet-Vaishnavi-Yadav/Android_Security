@@ -1,0 +1,18 @@
+{
+  "trojan_horses": {
+    "keywords": ["backdoor", "remote_shell", "download_exec"],
+    "description": "Disguised software that opens unauthorized remote access."
+  },
+  "time_bombs": {
+    "keywords": ["time.sleep(31536000)", "datetime.now() >", "cron_job_trigger"],
+    "description": "Malicious logic designed to detonate or execute after a specific time delay."
+  },
+  "spyware": {
+    "keywords": ["keylogger", "dump_contacts", "read_sms_database"],
+    "description": "Software designed to silently monitor and steal sensitive user data."
+  },
+  "phishing_links": {
+    "keywords": ["secure-login-update", "verify-identity-axis", "free-rewards-claim"],
+    "description": "Deceptive links designed to steal user credentials."
+  }
+}
