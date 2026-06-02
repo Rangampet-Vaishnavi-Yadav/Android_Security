@@ -15,6 +15,7 @@ Traditional scanners often focus on just one entry point. This project acts as a
 
 ⚠️ Real-Time Warnings: Instantly alerts the user with high-visibility threat levels upon detection.
 
+
 💻 Tech Stack
 
 Language:Python 3.x
