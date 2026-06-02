@@ -3,7 +3,7 @@
 An automated, multi-layered real-time security daemon designed to intercept, analyze, and mitigate complex software threat vectors on Android environments.
 
 ## 🚀 Overview
-Modern mobile threats span far beyond simple malicious links. This project serves as an intelligent background security agent that parses incoming data streams, file drops, and decoded QR data in real-time, matching telemetry patterns against an explicit database of classified cyber threats.
+Modern mobile threats span far beyond simple malicious links. This project serves as an intelligent background security agent that parses incoming data streams and file drops in real-time, matching telemetry patterns against an integrated database of classified cyber threats.
 
 ---
 
@@ -19,13 +19,14 @@ Modern mobile threats span far beyond simple malicious links. This project serve
 
 ## ⚙️ How the Architecture Works
 
-1. **`signatures.json`**: Acts as the isolated rules engine database. It houses the unique detection flags and classifications for all malware behaviors.
-2. **`main.py`**: Runs a continuous monitoring framework that evaluates system-level data traffic against the database rules and triggers explicit administrative warnings if anomalous activity is captured.
+1. **Automated Monitoring Daemon:** Runs a continuous `while True` background monitoring loop that watches a target device directory (`./simulated_downloads`) for new files without requiring manual user uploads.
+2. **Cryptographic Fingerprinting:** Instantly computes an MD5 cryptographic hash of any incoming file to check against a registry of known high-risk malware definitions.
+3. **Static Signature Inspection:** If the file hash is unique, the engine evaluates the script's raw code content against an embedded matrix of string indicators to catch malicious behaviors (such as ransomware encryption or spyware logging) before execution.
 
 ---
 
 ## 💻 Tech Stack
 
 * **Language:** Python 3.x
-* **Data Structure:** JSON (Threat signature matrix mapping)
-* **Libraries:** Built-in `os`, `json`, and `time` automation loops.
+* **Core Mechanisms:** Cryptographic Hashing (MD5 via `hashlib`), Heuristic String-Matching Matrices, and Automated File OS Interception.
+* **Libraries:** Built-in `os`, `hashlib`, and `time` automation loops (Zero external dependencies for maximum portability).
