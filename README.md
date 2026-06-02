@@ -17,7 +17,6 @@ Traditional scanners often focus on just one entry point. This project acts as a
 
 
 💻 Tech Stack
-
 Language:Python 3.x
 Libraries: `os` & `sys` (Core file system navigation)
 Planned: External security libraries for QR decoding and advanced threat signature matching.
